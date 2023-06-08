@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Serafim Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+          <a href="#" onclick="navigateTo('./index.html')" style="--i:1;" class="active">Home</a>
+          <a href="#" onclick="navigateTo('./skills.html')" style="--i:3;">Skills</a>
+          <a href="#" onclick="navigateTo('./portfolio.html')" style="--i:4;">Portfolio</a>
+          <a href="#" onclick="navigateTo('./contact.html')" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+    <section class="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="./Image/port3.jpeg" alt="Project 1">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Gof of War</h3>
+            <p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="https://efserafim.github.io/GOW_Projeto/" class="portfolio-btn">View Project</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="./Image/port1.jpeg" alt="Project 2">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Pokedex API</h3>
+            <p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="https://efserafim.github.io/Pokedex/" class="portfolio-btn">View Project</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="./Image/port2.jpeg" alt="Project 3">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Star Wars API</h3>
+            <p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="https://efserafim.github.io/mariojump/" class="portfolio-btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      
+    <script src="./js/script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Serafim Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+
+    <nav class="navbar">
+      <a href="#" onclick="navigateTo('./index.html')" style="--i:1;" class="active">Home</a>
+      <a href="#" onclick="navigateTo('./skills.html')" style="--i:3;">Skills</a>
+      <a href="#" onclick="navigateTo('./portfolio.html')" style="--i:4;">Portfolio</a>
+      <a href="#" onclick="navigateTo('./contact.html')" style="--i:5;">Contact</a>
+    </nav>
+</header>
+<body>
+  
+    <section class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="bx bx-code-alt"></i>
+            <h3 class="skill-title">Web Development</h3>
+            <p class="skill-description">HTML, CSS, JavaScript, React</p>
+          </div>
+          <div class="skill-item">
+            <i class="bx bx-paint"></i>
+            <h3 class="skill-title">UI/UX Design</h3>
+            <p class="skill-description">Adobe Photoshop, Sketch, Figma</p>
+          </div>
+          <div class="skill-item">
+            <i class="bx bx-data"></i>
+            <h3 class="skill-title">Data Analysis</h3>
+            <p class="skill-description">Python, R, SQL, Tableau</p>
+          </div>
+        </div>
+      </section>
+
+      
+      <script src="./js/script.js"></script>
+</body>
+</html>

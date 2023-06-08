@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Serafim Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+          <a href="#" onclick="navigateTo('./index.html')" style="--i:1;" class="active">Home</a>
+          <a href="#" onclick="navigateTo('./skills.html')" style="--i:3;">Skills</a>
+          <a href="#" onclick="navigateTo('./portfolio.html')" style="--i:4;">Portfolio</a>
+          <a href="#" onclick="navigateTo('./contact.html')" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+          <h2 class="section-title">Entre em contato</h2>
+          <p class="section-subtitle">Preencha o formulário abaixo para entrar em contato comigo.</p>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn1">Enviar</button>
+          </form>
+        </div>
+      </section>
+      
+      <script src="./js/script.js"></script>
+</body>
+</html>
